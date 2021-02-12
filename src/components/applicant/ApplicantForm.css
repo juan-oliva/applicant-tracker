@@ -1,0 +1,32 @@
+.form-group {
+  margin-bottom: 0.1rem !important;
+}
+
+.form-check {
+  padding-left: 0 !important;
+}
+
+.form-check-input {
+  position: relative !important;
+}
+
+.file input {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -7px;
+  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  padding: 30px 0px 30px 20%;
+  text-align: center !important;
+  margin: 0;
+  width: 100% !important;
+}
+.file input:focus {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset 0.15s ease-in-out,
+    background-color 0.15s linear;
+  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  border: 1px solid #92b0b3;
+}
+.file {
+  position: relative;
+}
